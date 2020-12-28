@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronON", "chronON.csproj", "{727346B8-048B-49D6-AF1E-C5C56ED95955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chronON.UserControls", "chronON.UserControls\chronON.UserControls.csproj", "{FF128D06-07F3-4D31-AB40-B40B921AB9FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{727346B8-048B-49D6-AF1E-C5C56ED95955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727346B8-048B-49D6-AF1E-C5C56ED95955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727346B8-048B-49D6-AF1E-C5C56ED95955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727346B8-048B-49D6-AF1E-C5C56ED95955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF128D06-07F3-4D31-AB40-B40B921AB9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF128D06-07F3-4D31-AB40-B40B921AB9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF128D06-07F3-4D31-AB40-B40B921AB9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF128D06-07F3-4D31-AB40-B40B921AB9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1400F60-D722-4003-BFEF-62B88F5F1F51}
+	EndGlobalSection
+EndGlobal
