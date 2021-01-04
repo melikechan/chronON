@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace chronON.UserControls
+namespace chronON.UserControls.StatusControls
 {
     /// <summary>
     /// Interaction logic for ChronoControl.xaml
