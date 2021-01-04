@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using chronON.UserControls;
 
-namespace chronON
+namespace chronON.MainProgram
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -6,5 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\chronON.UserControls\chronON.UserControls.csproj" />
+	</ItemGroup>
 
 </Project>
