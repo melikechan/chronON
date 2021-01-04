@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using chronON.UserControls;
+using chronON.UserControls.StatusControls;
+using chronON.UserControls.InputControls;
 
 namespace chronON.MainProgram
 {
@@ -23,6 +24,8 @@ namespace chronON.MainProgram
         {
             ControlGrid.Children.Clear();
             var chronoControl = new ChronoControl();
+            var chronoInput = new ChronoInputControl();
+            UserInputGrid.Children.Add(chronoInput);
             ControlGrid.Children.Add(chronoControl);
         }
 
@@ -30,7 +33,9 @@ namespace chronON.MainProgram
         {
             ControlGrid.Children.Clear();
             var timerControl = new TimerControl();
+            var timerInput = new TimerInputControl();
             ControlGrid.Children.Add(timerControl);
+            UserInputGrid.Children.Add(timerInput);
         }
 
         private void PomodoroButton_Click(object sender, RoutedEventArgs e)

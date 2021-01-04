@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:chronON.MainProgram"
         mc:Ignorable="d"
-        Title="chronON" Height="200" Width="400">
+        Title="chronON" Height="300" Width="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -15,14 +15,13 @@
             <StackPanel.Resources>
                 <Style TargetType="Button">
                     <Setter Property="Padding" Value="4" />
-                    <Setter Property="FontSize" Value="10" />
+                    <Setter Property="FontSize" Value="12" />
                     <Setter Property="Margin" Value="8 2" />
                 </Style>
             </StackPanel.Resources>
-            <Button x:Name="ChronoButton" Click="ChronoButton_Click">Chronometer</Button>
-            <Button x:Name="TimerButton" Click="TimerButton_Click">Timer</Button>
-            <Button x:Name="PomodoroButton" Click="PomodoroButton_Click">Pomodoro</Button>
-
+            <Button x:Name="ChronoButton" Click="ChronoButton_Click" VerticalAlignment="Center">Chronometer</Button>
+            <Button x:Name="TimerButton" Click="TimerButton_Click" VerticalAlignment="Center">Timer</Button>
+            <Button x:Name="PomodoroButton" Click="PomodoroButton_Click" VerticalAlignment="Center">Pomodoro</Button>
         </StackPanel>
         <Grid Margin="8" Row="1">
             <Grid.ColumnDefinitions>
