@@ -24,12 +24,14 @@
             <Button x:Name="PomodoroButton" Click="PomodoroButton_Click">Pomodoro</Button>
 
         </StackPanel>
-        <Grid x:Name="TimerGrid" Margin="8"  Row="1">
+        <Grid Margin="8" Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             <Grid x:Name="ControlGrid" Margin="4">
+            </Grid>
+            <Grid x:Name="UserInputGrid" Grid.Column="1" Margin="4">
             </Grid>
         </Grid>
     </Grid>

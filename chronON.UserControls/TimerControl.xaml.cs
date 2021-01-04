@@ -13,10 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace chronON_UserControls
+namespace chronON.UserControls
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for TimerControl.xaml
     /// </summary>
     public partial class TimerControl : UserControl
     {

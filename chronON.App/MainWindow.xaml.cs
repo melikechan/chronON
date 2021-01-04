@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using chronON.UserControls;
 
 namespace chronON
 {
@@ -20,14 +21,16 @@ namespace chronON
 
         private void ChronoButton_Click(object sender, RoutedEventArgs e)
         {
-            var chronoControl = new ChronoControl();
             ControlGrid.Children.Clear();
-            ControlGrid.Children.Add();
+            var chronoControl = new ChronoControl();
+            ControlGrid.Children.Add(chronoControl);
         }
 
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
-
+            ControlGrid.Children.Clear();
+            var timerControl = new TimerControl();
+            ControlGrid.Children.Add(timerControl);
         }
 
         private void PomodoroButton_Click(object sender, RoutedEventArgs e)

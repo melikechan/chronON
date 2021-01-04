@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Blend for Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronON", "chronON.csproj", "{727346B8-048B-49D6-AF1E-C5C56ED95955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronON.App", "chronON.App.csproj", "{727346B8-048B-49D6-AF1E-C5C56ED95955}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FF128D06-07F3-4D31-AB40-B40B921AB9FE} = {FF128D06-07F3-4D31-AB40-B40B921AB9FE}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chronON.UserControls", "chronON.UserControls\chronON.UserControls.csproj", "{FF128D06-07F3-4D31-AB40-B40B921AB9FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronON.UserControls", "chronON.UserControls\chronON.UserControls.csproj", "{FF128D06-07F3-4D31-AB40-B40B921AB9FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
