@@ -40,7 +40,11 @@ namespace chronON.MainProgram
 
         private void PomodoroButton_Click(object sender, RoutedEventArgs e)
         {
-
+            ControlGrid.Children.Clear();
+            var pomodoroControl = new PomodoroControl();
+            var pomodoroInput = new PomodoroInputControl();
+            ControlGrid.Children.Add(pomodoroControl);
+            UserInputGrid.Children.Add(pomodoroInput);
         }
     }
 }
